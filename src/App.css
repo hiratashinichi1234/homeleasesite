@@ -1,0 +1,42 @@
+/* ソーシャルリンクのスタイル */
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.social-links a {
+  color: white;
+  font-size: 18px;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+
+/* ページ全体のスクロールに対応するためのスタイル */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ページ全体の高さを最低限設定 */
+body, html {
+  height: 100%;
+}
+
+/* ページコンテンツの最低の高さを設定 */
+.page-content {
+  min-height: calc(100% - 60px); /* フッターの高さ + パディング */
+  padding-bottom: 60px; /* フッターの高さ */
+}
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 768px) {
+  .social-links {
+    flex-direction: column; /* 画面が狭い場合は縦に並べる */
+  }
+
+  .social-links a {
+    font-size: 16px; /* 画面が狭い場合はフォントサイズを小さくする */
+  }
+}

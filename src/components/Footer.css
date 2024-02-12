@@ -1,0 +1,18 @@
+/* フッター */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #95979a; /* フッターの背景色 */
+  padding: 10px;
+  text-align: center;
+  color: white; /* テキストの色 */
+  z-index: 1000; /* 他の要素よりも手前に表示 */
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

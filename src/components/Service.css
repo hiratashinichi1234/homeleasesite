@@ -1,0 +1,9 @@
+.Container {
+  margin-top: -1.5rem;
+}
+
+
+.img-thumbnail:hover {
+    transform: scale(1.2); /* ホバー時の拡大倍率（例: 1.2倍） */
+    transition: transform 0.3s ease; /* アニメーション効果を追加 */
+  }
